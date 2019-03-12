@@ -1,5 +1,5 @@
 ---
-path: Henrik Johansson
+path: Henrik-Johansson
 date: 2019-03-12T12:39:20.712Z
 title: My best hotdog
 ---
