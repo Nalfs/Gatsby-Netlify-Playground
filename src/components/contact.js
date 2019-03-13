@@ -27,7 +27,7 @@ const Contact = () => (
     </div>
 
     <div data-netlify-recaptcha="true"></div>
-    <button>Send</button>
+    <button type="submit">Send</button>
 </form>
 )
 
