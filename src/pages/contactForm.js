@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Contact from '../components/contact'
 import Header from '../components/header'
-import Footer from '../components/Footer'
+import Footer from '../components/footer'
 
 class ContactForm extends Component {
     render() {
