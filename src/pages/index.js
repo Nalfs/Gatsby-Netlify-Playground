@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import PostLink from "../components/post-link"
+import { Link } from "gatsby"
 
 const IndexPage = ({
   data: {
@@ -12,14 +13,14 @@ const IndexPage = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return <div>
-            <div class="header">
-                <div class="knockout"><a href="http://mksht.crisnoble.com" rel="Like cool shit? visit my site">gatsby filth</a></div>
+            <div className="header">
+                <div className="knockout"><a href="http://mksht.crisnoble.com" rel="Like cool shit? visit my site">gatsby filth</a></div>
 
             </div>
-            <div class="topnav">
-                <a class="active" href="#home">Home</a>
+            <div className="topnav">
+                <Link className="active" to="/">Home</Link>
                 <a href="#news">News</a>
-                <a href="#contact">Contact</a>
+                <Link to="/contactForm/">Contact</Link>
                 <a href="#about">About</a>
             </div>
 
