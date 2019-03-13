@@ -12,8 +12,19 @@ const IndexPage = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return <div>
+            <div class="header">
+                <div class="knockout"><a href="http://mksht.crisnoble.com" rel="Like cool shit? visit my site">gatsby filth</a></div>
+
+            </div>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+
             <h1>Blog Portal: Power Ranges unite!</h1>
-            {Posts}
+               {Posts}
             </div>
 }
 
