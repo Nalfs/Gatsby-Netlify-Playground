@@ -7,14 +7,14 @@ const Contact = () => (
     name="contact-form"
     method="post"
     data-netlify="true"
-    netlify-honeypot="bot-field"
+    data-netlify-honeypot="bot-field"
     data-netlify-recaptcha="true"
     >
     <input hidden className="hidden" name="bot-field" />
     <div className="field half first">
     <label htmlFor="name">Name</label>
     <input type="text" name="name" id="name" />
-</div>
+    </div>
 
     <div className="field half">
         <label htmlFor="email">Email</label>
