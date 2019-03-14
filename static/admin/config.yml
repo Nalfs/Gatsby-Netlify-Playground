@@ -15,7 +15,8 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
- - name: "nav"
+ - label: "Nav"
+    name: "nav"
     files:
       - label: "About Page"
         name: "about"
