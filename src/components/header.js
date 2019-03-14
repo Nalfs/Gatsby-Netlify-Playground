@@ -12,7 +12,7 @@ const Header = () => (
     <Link className="active" to="/">Home</Link>
     <a href="#news">News</a>
     <Link to="/contactForm/">Contact</Link>
-    <a href="#about">About</a>
+    <Link to="/about/">About</Link>
 </div>
               </div>
 )

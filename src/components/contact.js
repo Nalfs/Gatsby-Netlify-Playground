@@ -8,7 +8,6 @@ const Contact = () => (
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
-    data-netlify-recaptcha="true"
     >
     <input hidden className="hidden" name="bot-field" />
     <div className="field half first">
@@ -26,7 +25,6 @@ const Contact = () => (
         <textarea name="message" id="message" rows="6"></textarea>
     </div>
 
-    <div data-netlify-recaptcha="true"></div>
     <button type="submit">Send</button>
 </form>
 )
